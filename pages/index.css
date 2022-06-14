@@ -3,7 +3,7 @@
 @import url(../vendor/fonts/fonts.css);
 /* общие настройки страницы */
 @import url(../blocks/page/page.css);
-/* @import url(../blocks/page/__content/page__content.css);  отключили*/
+/* @import url(../blocks/page/__content/page__content.css);  отключил*/
 /* блок контент */
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__section/content__section.css);
@@ -20,6 +20,11 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+/* секция lead */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
 /* секция cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__item/cover__item.css);
