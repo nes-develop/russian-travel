@@ -1,18 +1,10 @@
 .header__lang-link {
-    text-decoration: none;
-    color: #ffffff;
     font-weight: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    text-decoration: none;
+    color:white;
   }
 
 .header__lang-link:focus {
   text-decoration: underline;
 }
-
-
-
-/* .header__lang-link:nth-child(1) {
-  text-decoration: underline;
-} */

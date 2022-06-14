@@ -1,13 +1,19 @@
 .header__lang-links {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
-    /* padding-left: 0; */
-    line-height: 30px;
-    /* font-weight: 400;
+    margin: 0;
+    padding: 18px 0px 6px 0;
     font-size: 24px;
-    line-height: 28px; */
-    color: #ffffff;
-
-    margin: 9px 0 0 0;
+    line-height: 28px;
+    /* line-height: 117%; */
+    gap: 0 18px;
   }
+
+  @media screen and (max-width: 568px) {
+    .header__lang-links {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 14px 0px 8px 0;
+    }
+  }
+  
