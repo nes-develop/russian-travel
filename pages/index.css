@@ -11,7 +11,7 @@
 @import url(../blocks//header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
-@import url(../blocks/default/default.css); /*  имитация выбора языка по умолчанию */
+@import url(../blocks/header/__lang-link/_active/header__lang_active.css); /*  имитация выбора языка по умолчанию */
 /* лого шапки сайта */
 @import url(../blocks/header/__logo/header__logo.css);
 /* секция lead */
