@@ -2,9 +2,15 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-decoration-line: underline;
+    
     color: #ffffff;
     margin: 0;
     font-style: normal;
+    text-decoration-line: underline;
   }
   
+
+  .place__link:hover {
+    opacity: 0.8;
+    transition: .5s;
+}
