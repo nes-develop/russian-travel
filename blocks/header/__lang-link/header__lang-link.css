@@ -1,10 +1,15 @@
 .header__lang-link {
-    font-weight: normal;
-    font-weight: 400;
-    text-decoration: none;
-    color:white;
-  }
+  font-weight: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
 
 .header__lang-link:focus {
   text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: .5s;
 }

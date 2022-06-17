@@ -6,19 +6,19 @@
     margin: 0;
 }
 
-  
+
 @media screen and (max-width: 984px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
     }
-  }
-  
-  @media screen and (max-width: 568px) {
+}
+
+@media screen and (max-width: 568px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
         text-align: left;
         min-width: 288px;
     }
-  } 
+}
